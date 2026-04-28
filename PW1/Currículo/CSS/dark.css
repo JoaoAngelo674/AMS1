@@ -1,0 +1,30 @@
+:root {
+    /* Cores */
+    --cor-fundo: #ffffff;
+    --cor-header: #065d4e;
+    --cor-footer: #0cdc7e;
+    --cor-texto: #000000;
+    --cor-borda: #cecece;
+    --cor-sombra: #ccc;
+    --cor-branca: #ffffff;
+}
+/* MODO ESCURO */
+.dark {
+    /* Cores */
+    --cor-fundo: #000000;
+    --cor-header: #000000;
+    --cor-footer: #000000;
+    --cor-texto: #ffffff;
+    --cor-borda: #000000;
+    --cor-sombra: #000000;
+    --cor-branca: #000000;
+}
+
+*{
+    transition: all 0.5s ease;
+}
+
+body {
+    background: var(--cor-fundo);
+    color: var(--cor-texto);
+}
