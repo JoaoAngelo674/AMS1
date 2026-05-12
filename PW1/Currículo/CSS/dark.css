@@ -12,8 +12,8 @@
 .dark {
     /* Cores */
     --cor-fundo: #000000;
-    --cor-header: #000000;
-    --cor-footer: #000000;
+    --cor-header: hsl(0, 0%, 49%);
+    --cor-footer: hsl(0, 0%, 49%);
     --cor-texto: #ffffff;
     --cor-borda: #000000;
     --cor-sombra: #000000;
