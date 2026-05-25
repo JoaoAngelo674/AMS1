@@ -9,6 +9,8 @@
     --cor-borda: #cecece;
     --cor-sombra: #ccc;
     --cor-branca: #ffffff;
+    --bg-image: url('../Imagens/premium_photo-1680807869780-e0876a6f3cd5.jpg')
+    --overlay-opacity: 0,7;
     
     /* Fontes */
     --fonte-padrao: Arial, Tahoma, Verdana;
