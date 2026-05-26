@@ -17,16 +17,35 @@
     --cor-texto: #ffffff;
     --cor-borda: #000000;
     --cor-sombra: #000000;
-    --cor-branca: #000000;
+    --cor-branca: #ffffff;
+    --bg-image: url("../Imagens/foto2.jpg");
+    --overlay-opacity: 0.2;
 }
 
 *{
     transition: all 0.5s ease;
 }
 
-body {
+/*body {
     background: var(--cor-fundo);
     color: var(--cor-texto);
+}*/
+
+body.dark {
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, var(--overlay-opacity)),
+            rgba(0, 0, 0, var(--overlay-opacity))
+        ),
+        var(--bg-image) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    height: auto;
+}
+
+body.dark html {
+    background: transparent;
+    height: 100%;
 }
 
 header{
